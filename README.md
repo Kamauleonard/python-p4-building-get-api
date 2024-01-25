@@ -61,7 +61,7 @@ $ pipenv install; pipenv shell
 $ cd server
 $ flask db upgrade
 $ python seed.py
-```
+``` 
 
 You can view the models in the `server/models.py` module, and the migrations in the
 `server/migrations/versions` directory. Here's what the relationships will look
